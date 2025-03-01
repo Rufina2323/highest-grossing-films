@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Data Viewer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .container {
+            max-width: 1250px;
+            margin: 0 auto;
+        }
+
+        select, button {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        input {
+            padding: 10px;
+            width: 1230px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            background: white;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background: #2c3e50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+
+        tr:hover {
+            background: #e1e1e1;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 20px;
+            font-style: italic;
+        }
+
+        .sort-controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .sort-btn {
+            background: #2c3e50;
+            width: 70px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .sort-btn:hover {
+            background: #2c3e50;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Highest-Grossing Films</h1>
+
+        <input type="text" id="search" placeholder="Search films by title..." onkeyup="filterData()">
+
+        <div class="sort-controls">
+            <select id="sortColumn">
+                <option value="title">Title</option>
+                <option value="release_year">Release Year</option>
+                <option value="directors">Director(s)</option>
+                <option value="box_office_revenue">Box Office ($)</option>
+                <option value="minute_cost">One Minute Cost ($)</option>
+            </select>
+            <select id="sortOrder">
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+            <button class="sort-btn" onclick="sortData()">Sort</button>
+        </div>
+
+        <div id="data-container"></div>
+    </div>
+
+    <script>
+        let filmData = [];
+
+        // Load JSON data
+        async function loadJSON() {
+            try {
+                const response = await fetch('exported_data.json');
+                filmData = await response.json();
+                displayData(filmData);
+            } catch (error) {
+                console.error('Error loading JSON:', error);
+                document.getElementById('data-container').innerHTML = '<p class="no-data">Error loading data.</p>';
+            }
+        }
+
+        function formatNumber(number) {
+            return new Intl.NumberFormat('de-DE').format(number);
+        }
+
+        // Display data in a table
+        function displayData(data) {
+            const container = document.getElementById('data-container');
+
+            if (!data.length) {
+                container.innerHTML = '<p class="no-data">No data available.</p>';
+                return;
+            }
+
+            const table = document.createElement('table');
+
+            // Table Header
+            table.innerHTML = `
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Release Year</th>
+                        <th>Director(s)</th>
+                        <th>Box Office ($)</th>
+                        <th>One Minute Cost ($)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${data.map(item => `
+                        <tr>
+                            <td>${item.title}</td>
+                            <td>${item.release_year}</td>
+                            <td>${Array.isArray(item.directors) ? item.directors.join(', ') : item.directors}</td>
+                            <td>${formatNumber(item.box_office_revenue)}</td>
+                            <td>${formatNumber(item.minute_cost)}</td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            `;
+
+            container.innerHTML = '';
+            container.appendChild(table);
+        }
+
+        // Filter data by film title
+        function filterData() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const filteredData = filmData.filter(item =>
+                item.title.toLowerCase().includes(searchTerm)
+            );
+            displayData(filteredData);
+        }
+
+        // Sort data by a selected column and order
+        function sortData() {
+            const field = document.getElementById('sortColumn').value;
+            const order = document.getElementById('sortOrder').value;
+
+            const sortedData = [...filmData].sort((a, b) => {
+                const valueA = a[field];
+                const valueB = b[field];
+
+                if (typeof valueA === 'string') {
+                    return order === 'asc' ? valueA.localeCompare(valueB) : valueB.localeCompare(valueA);
+                }
+
+                return order === 'asc' ? valueA - valueB : valueB - valueA;
+            });
+
+            displayData(sortedData);
+        }
+
+        // Load the JSON data when the page loads
+        window.onload = loadJSON;
+    </script>
+
+</body>
+
+</html>
