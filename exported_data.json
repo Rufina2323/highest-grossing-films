@@ -1,0 +1,836 @@
+[
+    {
+        "id": 1,
+        "title": "Avatar",
+        "release_year": 2009,
+        "directors": [
+            "James Cameron"
+        ],
+        "box_office_revenue": 2923706026.0,
+        "country_of_origin": "United Kingdom",
+        "budget": 237000000.0,
+        "running_time": 162,
+        "distributors": [
+            "20th Century Fox"
+        ],
+        "minute_cost": 16584605.0
+    },
+    {
+        "id": 2,
+        "title": "Avengers: Endgame",
+        "release_year": 2019,
+        "directors": [
+            "Anthony Russo",
+            "Joe Russo"
+        ],
+        "box_office_revenue": 2797501328.0,
+        "country_of_origin": "United States",
+        "budget": 356000000.0,
+        "running_time": 181,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 13488958.0
+    },
+    {
+        "id": 3,
+        "title": "Avatar: The Way of Water",
+        "release_year": 2022,
+        "directors": [
+            "James Cameron"
+        ],
+        "box_office_revenue": 2320250281.0,
+        "country_of_origin": "United States",
+        "budget": 350000000.0,
+        "running_time": 192,
+        "distributors": [
+            "20th Century Studios"
+        ],
+        "minute_cost": 10261720.0
+    },
+    {
+        "id": 4,
+        "title": "Titanic",
+        "release_year": 1997,
+        "directors": [
+            "James Cameron"
+        ],
+        "box_office_revenue": 2257844554.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 195,
+        "distributors": [
+            "Paramount Pictures",
+            "20th Century Fox"
+        ],
+        "minute_cost": 10553049.0
+    },
+    {
+        "id": 5,
+        "title": "Star Wars: The Force Awakens",
+        "release_year": 2015,
+        "directors": [
+            "J. J. Abrams"
+        ],
+        "box_office_revenue": 2068223624.0,
+        "country_of_origin": "United States",
+        "budget": 447000000.0,
+        "running_time": 138,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 11747997.0
+    },
+    {
+        "id": 6,
+        "title": "Avengers: Infinity War",
+        "release_year": 2018,
+        "directors": [
+            "Anthony Russo",
+            "Joe Russo"
+        ],
+        "box_office_revenue": 2048359754.0,
+        "country_of_origin": "United States",
+        "budget": 325000000.0,
+        "running_time": 149,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 11566173.0
+    },
+    {
+        "id": 7,
+        "title": "Ne Zha 2\u2020",
+        "release_year": 2025,
+        "directors": [
+            "Jiaozi"
+        ],
+        "box_office_revenue": 1942242560.0,
+        "country_of_origin": "China",
+        "budget": 80000000.0,
+        "running_time": 144,
+        "distributors": [
+            "Beijing Enlight Media",
+            "CMC Pictures"
+        ],
+        "minute_cost": 12932240.0
+    },
+    {
+        "id": 8,
+        "title": "Spider-Man: No Way Home",
+        "release_year": 2021,
+        "directors": [
+            "Jon Watts"
+        ],
+        "box_office_revenue": 1922598800.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 148,
+        "distributors": [
+            "Sony Pictures Releasing"
+        ],
+        "minute_cost": 11639181.0
+    },
+    {
+        "id": 9,
+        "title": "Inside Out 2",
+        "release_year": 2024,
+        "directors": [
+            "Kelsey Mann"
+        ],
+        "box_office_revenue": 1698863816.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 96,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 15613165.0
+    },
+    {
+        "id": 10,
+        "title": "Jurassic World",
+        "release_year": 2015,
+        "directors": [
+            "Colin Trevorrow"
+        ],
+        "box_office_revenue": 1671537444.0,
+        "country_of_origin": "United States",
+        "budget": 150000000.0,
+        "running_time": 124,
+        "distributors": [
+            "Universal Pictures"
+        ],
+        "minute_cost": 12270463.0
+    },
+    {
+        "id": 11,
+        "title": "The Lion King",
+        "release_year": 2019,
+        "directors": [
+            "Jon Favreau"
+        ],
+        "box_office_revenue": 1656943394.0,
+        "country_of_origin": "United States",
+        "budget": 250000000.0,
+        "running_time": 118,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 11923249.0
+    },
+    {
+        "id": 12,
+        "title": "The Avengers",
+        "release_year": 2012,
+        "directors": [
+            "Joss Whedon"
+        ],
+        "box_office_revenue": 1518815515.0,
+        "country_of_origin": "United States",
+        "budget": 220000000.0,
+        "running_time": 143,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 9082626.0
+    },
+    {
+        "id": 13,
+        "title": "Furious 7",
+        "release_year": 2015,
+        "directors": [
+            "James Wan"
+        ],
+        "box_office_revenue": 1515341399.0,
+        "country_of_origin": "United States",
+        "budget": 190000000.0,
+        "running_time": 137,
+        "distributors": [
+            "Universal Pictures"
+        ],
+        "minute_cost": 9674025.0
+    },
+    {
+        "id": 14,
+        "title": "Top Gun: Maverick",
+        "release_year": 2022,
+        "directors": [
+            "Joseph Kosinski"
+        ],
+        "box_office_revenue": 1495696292.0,
+        "country_of_origin": "United States",
+        "budget": 170000000.0,
+        "running_time": 131,
+        "distributors": [
+            "Paramount Pictures"
+        ],
+        "minute_cost": 10119819.0
+    },
+    {
+        "id": 15,
+        "title": "Frozen 2",
+        "release_year": 2019,
+        "directors": [
+            "Chris Buck",
+            "Jennifer Lee"
+        ],
+        "box_office_revenue": 1450026933.0,
+        "country_of_origin": "United States",
+        "budget": 150000000.0,
+        "running_time": 103,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 12621621.0
+    },
+    {
+        "id": 16,
+        "title": "Barbie",
+        "release_year": 2023,
+        "directors": [
+            "Greta Gerwig"
+        ],
+        "box_office_revenue": 1447038421.0,
+        "country_of_origin": "United States",
+        "budget": 128000000.0,
+        "running_time": 114,
+        "distributors": [
+            "Warner Bros. Pictures"
+        ],
+        "minute_cost": 11570512.0
+    },
+    {
+        "id": 17,
+        "title": "Avengers: Age of Ultron",
+        "release_year": 2015,
+        "directors": [
+            "Joss Whedon"
+        ],
+        "box_office_revenue": 1402809540.0,
+        "country_of_origin": "United States",
+        "budget": 444000000.0,
+        "running_time": 141,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 6800068.0
+    },
+    {
+        "id": 18,
+        "title": "The Super Mario Bros. Movie",
+        "release_year": 2023,
+        "directors": [
+            "Aaron Horvath",
+            "Michael Jelenic"
+        ],
+        "box_office_revenue": 1362566989.0,
+        "country_of_origin": "United States",
+        "budget": 100000000.0,
+        "running_time": 92,
+        "distributors": [
+            "Universal Pictures"
+        ],
+        "minute_cost": 13723554.0
+    },
+    {
+        "id": 19,
+        "title": "Black Panther",
+        "release_year": 2018,
+        "directors": [
+            "Ryan Coogler"
+        ],
+        "box_office_revenue": 1347280838.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 134,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 8561797.0
+    },
+    {
+        "id": 20,
+        "title": "Harry Potter and the Deathly Hallows \u2013 Part 2",
+        "release_year": 2011,
+        "directors": [
+            "David Yates"
+        ],
+        "box_office_revenue": 1342139727.0,
+        "country_of_origin": "United Kingdom",
+        "budget": 250000000.0,
+        "running_time": 130,
+        "distributors": [
+            "Warner Bros. Pictures"
+        ],
+        "minute_cost": 8401075.0
+    },
+    {
+        "id": 21,
+        "title": "Deadpool & Wolverine",
+        "release_year": 2024,
+        "directors": [
+            "Shawn Levy"
+        ],
+        "box_office_revenue": 1338073645.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 128,
+        "distributors": [
+            "Walt Disney Studios Motion Pictures"
+        ],
+        "minute_cost": 8891200.0
+    },
+    {
+        "id": 22,
+        "title": "Star Wars: The Last Jedi",
+        "release_year": 2017,
+        "directors": [
+            "Rian Johnson"
+        ],
+        "box_office_revenue": 1332539889.0,
+        "country_of_origin": "United States",
+        "budget": 300000000.0,
+        "running_time": 152,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 6793026.0
+    },
+    {
+        "id": 23,
+        "title": "Jurassic World: Fallen Kingdom",
+        "release_year": 2018,
+        "directors": [
+            "J. A. Bayona"
+        ],
+        "box_office_revenue": 1308473425.0,
+        "country_of_origin": "China",
+        "budget": 432000000.0,
+        "running_time": 128,
+        "distributors": [
+            "Universal Pictures"
+        ],
+        "minute_cost": 6847449.0
+    },
+    {
+        "id": 24,
+        "title": "Frozen",
+        "release_year": 2013,
+        "directors": [
+            "Chris Buck",
+            "Jennifer Lee"
+        ],
+        "box_office_revenue": 1290000000.0,
+        "country_of_origin": "United States",
+        "budget": 150000000.0,
+        "running_time": 102,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 11176471.0
+    },
+    {
+        "id": 25,
+        "title": "Beauty and the Beast",
+        "release_year": 2017,
+        "directors": [
+            "Bill Condon"
+        ],
+        "box_office_revenue": 1263521126.0,
+        "country_of_origin": "United States",
+        "budget": 160000000.0,
+        "running_time": 129,
+        "distributors": [
+            "Walt Disney Studios Motion Pictures"
+        ],
+        "minute_cost": 8554427.0
+    },
+    {
+        "id": 26,
+        "title": "Incredibles 2",
+        "release_year": 2018,
+        "directors": [
+            "Brad Bird"
+        ],
+        "box_office_revenue": 1242805359.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 118,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 8837334.0
+    },
+    {
+        "id": 27,
+        "title": "The Fate of the Furious",
+        "release_year": 2017,
+        "directors": [
+            "F. Gary Gray"
+        ],
+        "box_office_revenue": 1238764765.0,
+        "country_of_origin": "United States",
+        "budget": 250000000.0,
+        "running_time": 136,
+        "distributors": [
+            "Universal Pictures"
+        ],
+        "minute_cost": 7270329.0
+    },
+    {
+        "id": 28,
+        "title": "Iron Man 3",
+        "release_year": 2013,
+        "directors": [
+            "Shane Black"
+        ],
+        "box_office_revenue": 1214811252.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 131,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 7746651.0
+    },
+    {
+        "id": 29,
+        "title": "Minions",
+        "release_year": 2015,
+        "directors": [
+            "Pierre Coffin",
+            "Kyle Balda"
+        ],
+        "box_office_revenue": 1159444662.0,
+        "country_of_origin": "United States",
+        "budget": 74000000.0,
+        "running_time": 91,
+        "distributors": [
+            "Universal Pictures"
+        ],
+        "minute_cost": 11927963.0
+    },
+    {
+        "id": 30,
+        "title": "Captain America: Civil War",
+        "release_year": 2016,
+        "directors": [
+            "Anthony RussoJoe Russo",
+            "Anthony Russo",
+            "Joe Russo"
+        ],
+        "box_office_revenue": 1153337496.0,
+        "country_of_origin": "United States",
+        "budget": 250000000.0,
+        "running_time": 147,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 6145153.0
+    },
+    {
+        "id": 31,
+        "title": "Aquaman",
+        "release_year": 2018,
+        "directors": [
+            "James Wan"
+        ],
+        "box_office_revenue": 1148528393.0,
+        "country_of_origin": "United States",
+        "budget": 160000000.0,
+        "running_time": 143,
+        "distributors": [
+            "Warner Bros. Pictures"
+        ],
+        "minute_cost": 6912786.0
+    },
+    {
+        "id": 32,
+        "title": "The Lord of the Rings: The Return of the King",
+        "release_year": 2003,
+        "directors": [
+            "Peter Jackson"
+        ],
+        "box_office_revenue": 1147997407.0,
+        "country_of_origin": "New Zealand",
+        "budget": 94000000.0,
+        "running_time": 201,
+        "distributors": [
+            "New Line Cinema"
+        ],
+        "minute_cost": 5243768.0
+    },
+    {
+        "id": 33,
+        "title": "Spider-Man: Far From Home",
+        "release_year": 2019,
+        "directors": [
+            "Jon Watts"
+        ],
+        "box_office_revenue": 1132679685.0,
+        "country_of_origin": "United States",
+        "budget": 160000000.0,
+        "running_time": 129,
+        "distributors": [
+            "Sony Pictures Releasing"
+        ],
+        "minute_cost": 7540153.0
+    },
+    {
+        "id": 34,
+        "title": "Captain Marvel",
+        "release_year": 2019,
+        "directors": [
+            "Anna BodenRyan Fleck"
+        ],
+        "box_office_revenue": 1128274794.0,
+        "country_of_origin": "United States",
+        "budget": 152000000.0,
+        "running_time": 124,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 7873184.0
+    },
+    {
+        "id": 35,
+        "title": "Transformers: Dark of the Moon",
+        "release_year": 2011,
+        "directors": [
+            "Michael Bay"
+        ],
+        "box_office_revenue": 1123794079.0,
+        "country_of_origin": "United States",
+        "budget": 195000000.0,
+        "running_time": 154,
+        "distributors": [
+            "Paramount Pictures"
+        ],
+        "minute_cost": 6031130.0
+    },
+    {
+        "id": 36,
+        "title": "Skyfall",
+        "release_year": 2012,
+        "directors": [
+            "Sam Mendes"
+        ],
+        "box_office_revenue": 1108594137.0,
+        "country_of_origin": "United Kingdom",
+        "budget": 150000000.0,
+        "running_time": 143,
+        "distributors": [
+            "Sony Pictures Releasing"
+        ],
+        "minute_cost": 6703456.0
+    },
+    {
+        "id": 37,
+        "title": "Transformers: Age of Extinction",
+        "release_year": 2014,
+        "directors": [
+            "Michael Bay"
+        ],
+        "box_office_revenue": 1104054072.0,
+        "country_of_origin": "United States",
+        "budget": 210000000.0,
+        "running_time": 165,
+        "distributors": [
+            "Paramount Pictures"
+        ],
+        "minute_cost": 5418510.0
+    },
+    {
+        "id": 38,
+        "title": "The Dark Knight Rises",
+        "release_year": 2012,
+        "directors": [
+            "Christopher Nolan"
+        ],
+        "box_office_revenue": 1081169825.0,
+        "country_of_origin": "United States",
+        "budget": 250000000.0,
+        "running_time": 164,
+        "distributors": [
+            "Warner Bros. Pictures"
+        ],
+        "minute_cost": 5068109.0
+    },
+    {
+        "id": 39,
+        "title": "Joker",
+        "release_year": 2019,
+        "directors": [
+            "Todd Phillips"
+        ],
+        "box_office_revenue": 1074458282.0,
+        "country_of_origin": "United States",
+        "budget": 55000000.0,
+        "running_time": 122,
+        "distributors": [
+            "Warner Bros. Pictures"
+        ],
+        "minute_cost": 8356215.0
+    },
+    {
+        "id": 40,
+        "title": "Star Wars: The Rise of Skywalker",
+        "release_year": 2019,
+        "directors": [
+            "J. J. Abrams"
+        ],
+        "box_office_revenue": 1074144248.0,
+        "country_of_origin": "United States",
+        "budget": 416000000.0,
+        "running_time": 142,
+        "distributors": [
+            "Walt Disney Studios Motion Pictures"
+        ],
+        "minute_cost": 4634819.0
+    },
+    {
+        "id": 41,
+        "title": "Toy Story 4",
+        "release_year": 2019,
+        "directors": [
+            "Josh Cooley"
+        ],
+        "box_office_revenue": 1073394593.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 100,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 8733946.0
+    },
+    {
+        "id": 42,
+        "title": "Toy Story 3",
+        "release_year": 2010,
+        "directors": [
+            "Lee Unkrich"
+        ],
+        "box_office_revenue": 1066970811.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 103,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 8417192.0
+    },
+    {
+        "id": 43,
+        "title": "Pirates of the Caribbean: Dead Man's Chest",
+        "release_year": 2006,
+        "directors": [
+            "Gore Verbinski"
+        ],
+        "box_office_revenue": 1066179747.0,
+        "country_of_origin": "United States",
+        "budget": 225000000.0,
+        "running_time": 151,
+        "distributors": [
+            "Buena Vista Pictures Distribution"
+        ],
+        "minute_cost": 5570727.0
+    },
+    {
+        "id": 44,
+        "title": "Rogue One: A Star Wars Story",
+        "release_year": 2016,
+        "directors": [
+            "Gareth Edwards"
+        ],
+        "box_office_revenue": 1057420387.0,
+        "country_of_origin": "United States",
+        "budget": 200000000.0,
+        "running_time": 134,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 6398660.0
+    },
+    {
+        "id": 45,
+        "title": "Moana 2\u2020",
+        "release_year": 2024,
+        "directors": [
+            "David Derrick Jr.",
+            "Jason Hand",
+            "Dana Ledoux Miller"
+        ],
+        "box_office_revenue": 1053578188.0,
+        "country_of_origin": "United States",
+        "budget": 150000000.0,
+        "running_time": 100,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 9035782.0
+    },
+    {
+        "id": 46,
+        "title": "Aladdin",
+        "release_year": 2019,
+        "directors": [
+            "Guy Ritchie"
+        ],
+        "box_office_revenue": 1050693953.0,
+        "country_of_origin": "United States",
+        "budget": 183000000.0,
+        "running_time": 128,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 6778859.0
+    },
+    {
+        "id": 47,
+        "title": "Star Wars: Episode I \u2013 The Phantom Menace",
+        "release_year": 1999,
+        "directors": [
+            "George Lucas"
+        ],
+        "box_office_revenue": 1046515409.0,
+        "country_of_origin": "United States",
+        "budget": 115000000.0,
+        "running_time": 134,
+        "distributors": [
+            "20th Century Fox"
+        ],
+        "minute_cost": 6951608.0
+    },
+    {
+        "id": 48,
+        "title": "Pirates of the Caribbean: On Stranger Tides",
+        "release_year": 2011,
+        "directors": [
+            "Rob Marshall"
+        ],
+        "box_office_revenue": 1045713802.0,
+        "country_of_origin": "United States",
+        "budget": 410000000.0,
+        "running_time": 137,
+        "distributors": [
+            "Walt Disney Studios",
+            "Motion Pictures"
+        ],
+        "minute_cost": 4640247.0
+    },
+    {
+        "id": 49,
+        "title": "Jurassic Park",
+        "release_year": 1993,
+        "directors": [
+            "Steven Spielberg"
+        ],
+        "box_office_revenue": 1037535230.0,
+        "country_of_origin": "United States",
+        "budget": 63000000.0,
+        "running_time": 127,
+        "distributors": [
+            "Universal Pictures"
+        ],
+        "minute_cost": 7673506.0
+    },
+    {
+        "id": 50,
+        "title": "Despicable Me 3",
+        "release_year": 2017,
+        "directors": [
+            "Pierre Coffin",
+            "Kyle Balda"
+        ],
+        "box_office_revenue": 1034800131.0,
+        "country_of_origin": "United States",
+        "budget": 75000000.0,
+        "running_time": 90,
+        "distributors": [
+            "Universal Pictures"
+        ],
+        "minute_cost": 10664446.0
+    }
+]
